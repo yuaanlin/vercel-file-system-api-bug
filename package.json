@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "mkdir -p .output/server/pages && cp -r src/ .output/server/pages"
+    "build": "mkdir -p .output/server/pages && cp src/index.js .output/server/pages/index.js && cp src/index.nft.json .output/server/pages/index.nft.json"
   }
 }
