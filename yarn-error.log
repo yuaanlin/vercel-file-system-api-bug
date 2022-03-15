@@ -1,0 +1,39 @@
+Arguments: 
+  /Users/yuanlin/.nvm/versions/node/v17.5.0/bin/node /opt/homebrew/bin/yarn build
+
+PATH: 
+  /Users/yuanlin/.nvm/versions/node/v17.5.0/bin:/Users/yuanlin/Library/pnpm:/opt/homebrew/opt/mysql-client/bin:/Users/yuanlin/.yarn/bin:/Users/yuanlin/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/yuanlin/Desktop/test/package.json: Unexpected token } in JSON at position 195
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "mkdir -p .output/server/pages && cp src/index.js .ouput/server/pages/index.js",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
