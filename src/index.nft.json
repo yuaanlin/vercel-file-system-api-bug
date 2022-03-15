@@ -1,0 +1,9 @@
+{
+	"version": 1,
+	"files": [
+		{
+			"input": "../../../data.txt",
+			"output": "my-folder/data.txt"
+		}
+	]
+}
